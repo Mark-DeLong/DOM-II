@@ -10,33 +10,31 @@
 //     document.querySelector(".logo-heading").style.fontSize = "xx-small"
 // })
 
-// fullscreenchange
-const auxclick = document.querySelector(".nav-link")
-
-auxclick.onclick = function() {
-    console.log('auxclick')
-  };
+// // click
+// document.addEventListener("click", function (event) {
+//     document.body.style.opacity = "1"
+// })
   
 
-// load
-window.addEventListener("load", function (event) {
-    console.log('load')
-})
+// // load Done
+// window.addEventListener("load", function (event) {
+//     document.body.style.fontSize = "2px"
+// })
 
-// 
-document.addEventListener("", function (event) {
-    console.log('')
-})
+// // keyup
+// document.addEventListener("keyup", function (event) {
+//     document.querySelector(".logo-heading").style.fontSize = "initial"
+// })
 
 // // resize done
 // window.addEventListener("resize", function (event) {
 //     document.querySelector(".intro").style.margin = "20%"
 // })
 
-// scroll
-document.addEventListener("scroll", function (event) {
-    document.querySelector
-})
+// // scroll Done
+// document.addEventListener("scroll", function (event) {
+//     document.body.style.opacity = "0.1"
+// })
 
 // //contextmenu done
 // document.addEventListener("contextmenu", function (event) {
@@ -48,4 +46,4 @@ document.addEventListener("scroll", function (event) {
 //     document.body.style.backgroundColor = "white"
 // })
 
-drag / drop 2 events needed 
+// select
