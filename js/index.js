@@ -1,64 +1,51 @@
-// // mouseover
+// // mouseover Done
 // const mouseover = document.querySelector(".nav-link")
 
 // mouseover.addEventListener("mouseover", function (event) {
-//     console.log('mouseover')
+//     document.body.style.backgroundColor = "red"
 // })
 
-// keydown
-const keydown = document.querySelector(".nav-link")
-keydown.addEventListener("keydown", function (event) {
-    console.log('keydown')
-})
-
-// // wheel
-// const wheel = document.querySelector(".nav-link")
-
-// wheel.addEventListener("wheel", function (event) {
-//     console.log('wheel')
+// // keydown Done
+// document.addEventListener("keydown", function (event) {
+//     document.querySelector(".logo-heading").style.fontSize = "xx-small"
 // })
+
+// fullscreenchange
+const auxclick = document.querySelector(".nav-link")
+
+auxclick.onclick = function() {
+    console.log('auxclick')
+  };
+  
 
 // load
-const load = document.querySelector(".nav-link")
-
-load.addEventListener("load", function (event) {
+window.addEventListener("load", function (event) {
     console.log('load')
 })
 
-// focus
-const focus = document.querySelector(".nav-link")
-
-focus.addEventListener("focus", function (event) {
-    console.log('focus')
+// 
+document.addEventListener("", function (event) {
+    console.log('')
 })
 
-// resize
-const resize = document.querySelector(".nav-link")
-
-resize.addEventListener("resize", function (event) {
-    console.log('resize')
-})
-
-// scroll
-const scrollx = document.querySelector(".nav-link")
-
-scrollx.addEventListener("scroll", function (event) {
-    console.log('scroll')
-})
-
-//select
-const select = document.querySelector(".nav-link")
-
-select.addEventListener("select", function (event) {
-    console.log('select')
-})
-
-// // dblclick
-// const dblclick = document.querySelector(".nav-link")
-
-// dblclick.addEventListener("dblclick", function (event) {
-//     console.log('dblclick')
+// // resize done
+// window.addEventListener("resize", function (event) {
+//     document.querySelector(".intro").style.margin = "20%"
 // })
 
-// // drag / drop 2 events needed const 
-// // drag / drop = document.querySelector("#")
+// scroll
+document.addEventListener("scroll", function (event) {
+    document.querySelector
+})
+
+// //contextmenu done
+// document.addEventListener("contextmenu", function (event) {
+//     document.body.style.fontSize = "20px"
+// })
+
+// // dblclick done
+// document.addEventListener("dblclick", function (event) {
+//     document.body.style.backgroundColor = "white"
+// })
+
+drag / drop 2 events needed 
